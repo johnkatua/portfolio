@@ -74,7 +74,8 @@ class Profile extends React.Component {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("assets/img/theme/PSX_20200902_154039.jpg")}
+                            height='220px' width='500px'
                           />
                         </a>
                       </div>
@@ -141,15 +142,10 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                          I am student taking my degree in Business Information Technology.
+                          I like building apps and websites and this inspired me to learn how to code.
+                          I have fundamental knowledge in React, Nodejs, JavaScript and GraphQL.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>
